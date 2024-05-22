@@ -262,19 +262,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT ../analysis/shortest path/shortest path.png
-INPUT ../analysis/shortest path/shortest path.png
-INPUT ../analysis/shortest path/shortest path.png
-INPUT ../analysis/shortest path/shortest path.png
-INPUT ../analysis/shortest path/shortest path.png
-INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd
-INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd
-INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmro7t.tfm
 INPUT c:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 INPUT c:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
@@ -294,26 +281,71 @@ INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT ../analysis/degree distribution/degree distribution.png
-INPUT ../analysis/degree distribution/degree distribution.png
-INPUT ../analysis/degree distribution/degree distribution.png
-INPUT ../analysis/degree distribution/degree distribution.png
-INPUT ../analysis/degree distribution/degree distribution.png
-INPUT ../analysis/node strength/node strenth.png
-INPUT ../analysis/node strength/node strenth.png
-INPUT ../analysis/node strength/node strenth.png
-INPUT ../analysis/node strength/node strenth.png
-INPUT ../analysis/node strength/node strenth.png
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT c:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+INPUT c:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+INPUT c:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong51.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong85.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT ../example/ccn_example.png
+INPUT ../example/ccn_example.png
+INPUT ../example/ccn_example.png
+INPUT ../example/ccn_example.png
+INPUT ../example/ccn_example.png
+INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd
+INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd
+INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong5b.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong80.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong65.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong4e.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8b.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong67.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong81.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8f.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong77.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong61.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong54.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT ../example/csn_example.png
+INPUT ../example/csn_example.png
+INPUT ../example/csn_example.png
+INPUT ../example/csn_example.png
+INPUT ../example/csn_example.png
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong20.tfm
+INPUT ../analysis/shortest path/shortest path.png
+INPUT ../analysis/shortest path/shortest path.png
+INPUT ../analysis/shortest path/shortest path.png
+INPUT ../analysis/shortest path/shortest path.png
+INPUT ../analysis/shortest path/shortest path.png
+INPUT ../analysis/degree distribution/degree distribution.png
+INPUT ../analysis/degree distribution/degree distribution.png
+INPUT ../analysis/degree distribution/degree distribution.png
+INPUT ../analysis/degree distribution/degree distribution.png
+INPUT ../analysis/degree distribution/degree distribution.png
+INPUT ../analysis/node strength/node strenth.png
+INPUT ../analysis/node strength/node strenth.png
+INPUT ../analysis/node strength/node strenth.png
+INPUT ../analysis/node strength/node strenth.png
+INPUT ../analysis/node strength/node strenth.png
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT ../analysis/clustering coefficient/clustering coefficient.png
 INPUT ../analysis/clustering coefficient/clustering coefficient.png
 INPUT ../analysis/clustering coefficient/clustering coefficient.png
@@ -327,6 +359,20 @@ INPUT ../analysis/knn/knn.png
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
