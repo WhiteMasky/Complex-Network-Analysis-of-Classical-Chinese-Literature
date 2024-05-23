@@ -1,0 +1,64 @@
+\begin{thebibliography}{10}
+
+\bibitem{barabasi1999emergence}
+Albert-L{\'a}szl{\'o} Barab{\'a}si and R{\'e}ka Albert.
+\newblock Emergence of scaling in random networks.
+\newblock {\em science}, 286(5439):509--512, 1999.
+
+\bibitem{baronchelli2013networks}
+Andrea Baronchelli, Ramon Ferrer-i Cancho, Romualdo Pastor-Satorras, Nick Chater, and Morten~H Christiansen.
+\newblock Networks in cognitive science.
+\newblock {\em Trends in cognitive sciences}, 17(7):348--360, 2013.
+
+\bibitem{chen1999modern}
+Ping Chen.
+\newblock {\em Modern Chinese: History and Sociolinguistics.}
+\newblock ERIC, 1999.
+
+\bibitem{costa2007characterization}
+L~da~F Costa, Francisco~A Rodrigues, Gonzalo Travieso, and Paulino~Ribeiro Villas~Boas.
+\newblock Characterization of complex networks: A survey of measurements.
+\newblock {\em Advances in physics}, 56(1):167--242, 2007.
+
+\bibitem{ferrer2004patterns}
+Ramon Ferrer~i Cancho, Ricard~V Sol{\'e}, and Reinhard K{\"o}hler.
+\newblock Patterns in syntactic dependency networks.
+\newblock {\em Physical Review E—Statistical, Nonlinear, and Soft Matter Physics}, 69(5):051915, 2004.
+
+\bibitem{LI2007629}
+Jianyu Li and Jie Zhou.
+\newblock Chinese character structure analysis based on complex networks.
+\newblock {\em Physica A: Statistical Mechanics and its Applications}, 380:629--638, 2007.
+
+\bibitem{newman2002assortative}
+Mark~EJ Newman.
+\newblock Assortative mixing in networks.
+\newblock {\em Physical review letters}, 89(20):208701, 2002.
+
+\bibitem{ScriptaSinica}
+Institute of~History and Academia~Sinica Philology.
+\newblock Scripta sinica database.
+\newblock Year.
+\newblock Accessed on: Date.
+
+\bibitem{ravasz2003hierarchical}
+Erzs{\'e}bet Ravasz and Albert-L{\'a}szl{\'o} Barab{\'a}si.
+\newblock Hierarchical organization in complex networks.
+\newblock {\em Physical review E}, 67(2):026112, 2003.
+
+\bibitem{sole2010language}
+Ricard~V Sol{\'e}, Bernat Corominas-Murtra, Sergi Valverde, and Luc Steels.
+\newblock Language networks: Their structure, function, and evolution.
+\newblock {\em Complexity}, 15(6):20--26, 2010.
+
+\bibitem{watts1998collective}
+Duncan~J Watts and Steven~H Strogatz.
+\newblock Collective dynamics of ‘small-world’networks.
+\newblock {\em nature}, 393(6684):440--442, 1998.
+
+\bibitem{ZHOU20083039}
+Shuigeng Zhou, Guobiao Hu, Zhongzhi Zhang, and Jihong Guan.
+\newblock An empirical study of chinese language networks.
+\newblock {\em Physica A: Statistical Mechanics and its Applications}, 387(12):3039--3047, 2008.
+
+\end{thebibliography}

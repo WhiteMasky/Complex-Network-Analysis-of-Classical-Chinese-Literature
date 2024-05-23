@@ -101,13 +101,13 @@
 \end{abstract}
 
 \section{Introduction}
-Complex network studies have made it possible to analyze and comprehend the dynamics and structure of different real-world systems, such as biological, social, and technical networks \cite{Albert2002,Dorogovtsev2002,Newman2003,Boccaletti2006,Costa2007}. And there is no exception in human language network. 
+Complex network studies have made it possible to analyze and comprehend the dynamics and structure of different real-world systems, such as biological, social, and technical networks \cite{costa2007characterization}. And there is no exception in human language network. 
 
-By representing language as a network, where words or characters are nodes and their relations are edges \cite{FerreriCancho2004,Liu2004}, researchers have found statistical features in language networks such as scale-free degree distributions, small-world effects, and hierarchical structures. These findings have not only deepened our understanding of the complexity of human language but have also provided us with new insights into language learning and processing \cite{Baronchelli2013}.
+By representing language as a network, where words or characters are nodes and their relations are edges \cite{ferrer2004patterns}, researchers have found statistical features in language networks such as scale-free degree distributions, small-world effects, and hierarchical structures. These findings have not only deepened our understanding of the complexity of human language but have also provided us with new insights into language learning and processing \cite{baronchelli2013networks}.
 
 Given that it is the existing language with the longest history and the largest speaker population in the world, Chinese offers a good case for the academic study of language networks. Chinese is an ideal language to study the connection between complex network theory and linguistic principles because of its large vocabulary, special reading and writing system, and rich literary history.
 
-However, a thorough examination of the topological characteristics of Classical Chinese language networks based on sizable corpora is still absent, in spite of some groundbreaking research on Modern Chinese networks \cite{Li2007,Liu2008}.
+However, a thorough examination of the topological characteristics of Classical Chinese language networks based on sizable corpora is still absent, in spite of some groundbreaking research on Modern Chinese networks\cite{LI2007629}.
 
 We investigate the statistical characteristics of Chinese language networks built from the Scripta Sinica corpus, one of the largest digital collections of ancient Chinese writings, in order to close this gap. Two types of networks are constructed: the character co-occurrence network (CCN) and the character-sentence network (CSN). Our goal is to identify the network features of the Classical Chinese language and any possible linguistic or cultural conclusions by combining quantitative investigation and qualitative interpretation.
 
@@ -201,7 +201,7 @@ The network analysis is performed using Python and popular network analysis libr
 This section presents the main findings of our study on the topological properties of CCN and CSN. We focus on the small-world properties, scale-free characteristics, disassortativity and hierarchical structure. These results provide valuable insights into the organizational principles and structural features of Chinese language networks.
 \subsection{Small-World Properties}
 
-Compared to a random network with same scale, if a specific network maintains a similar average shortest path length and has a larger clustering coefficient, it is considered to have small world properties \cite{Watts1998}. Therefore, we investigated the clustering coefficient, and average shortest path length of CCN and CSN to assess their small world properties.
+Compared to a random network with same scale, if a specific network maintains a similar average shortest path length and has a larger clustering coefficient, it is considered to have small world properties \cite{watts1998collective}. Therefore, we investigated the clustering coefficient, and average shortest path length of CCN and CSN to assess their small world properties.
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\textwidth]{../analysis/shortest path/shortest path.png}
@@ -210,7 +210,7 @@ Compared to a random network with same scale, if a specific network maintains a 
     \end{figure}
     Compared to an equivalent random network ($C_{\rm rand}=2.83 \times 10^{-5}, L_{\rm rand}=3.66$), CCN has a significantly higher clustering coefficient $C_1=0.022$ and a slightly lower average shortest path length $L_1=2.41$. Similarly, CSN has a higher $C_2=0.046$ and a lower $L_2=2.74$ ($C_{\rm rand}=1.20 \times 10^{-4}, L_{\rm rand}=2.93$). These findings suggest that Classical Chinese lexical networks have strong small-world effects, making information processing and retrieval easier due to their highly connected local clusters and efficient global communication.
 \subsection{Scale-Free Characteristics and Matthew Effect}
-Many real-world networks exhibit a power-law degree distribution, indicating a scale-free structure \cite{Barabasi1999}:
+Many real-world networks exhibit a power-law degree distribution, indicating a scale-free structure \cite{barabasi1999emergence}:
 \begin{equation}
 P(k) \sim k^{-\gamma}
 \end{equation}
@@ -234,9 +234,9 @@ P(k) \sim k^{-\gamma}
     \begin{equation}
     s(k) \sim k^{\alpha}
     \end{equation}
-    For CCN, the fitted exponent is $\alpha=1.41$, while for CSN, $\alpha=1.68$. This result suggests that high-degree nodes tend to have disproportionately larger strengths compared to low-degree nodes, reflecting the preferential attachment mechanism commonly observed in evolving networks and pointing to a "Matthew effect" or "rich-get-richer" phenomenon \cite{Barabasi1999}.
+    For CCN, the fitted exponent is $\alpha=1.41$, while for CSN, $\alpha=1.68$. This result suggests that high-degree nodes tend to have disproportionately larger strengths compared to low-degree nodes, reflecting the preferential attachment mechanism commonly observed in evolving networks and pointing to a "Matthew effect" or "rich-get-richer" phenomenon \cite{barabasi1999emergence}.
 \subsection{Hierarchical Structure and Disassortativity}
-By observing the power-law relationship between the clustering coefficient $C(k)$ and the node degree $k$ \cite{Ravasz2003}, we can examine whether a complex network possesses a hierarchical structure:
+By observing the power-law relationship between the clustering coefficient $C(k)$ and the node degree $k$ \cite{ravasz2003hierarchical}, we can examine whether a complex network possesses a hierarchical structure:
 \begin{equation}
 C(k) \sim k^{-\beta}
 \end{equation}
@@ -247,7 +247,7 @@ C(k) \sim k^{-\beta}
     \label{fig:hierarchical}
     \end{figure}
     The hierarchical structures of CCN and CSN reflect the multi-scale, modular organization of the Chinese language system, as shown in Figure \ref{fig:hierarchical}, with $\beta=0.55$ for CCN and $\beta=0.34$ for CSN. There are tightly connected groups at various linguistic unit levels, from radicals to words and phrases.
-    In addition, we studied the degree correlations in CSN and CCN to understand the assortativity of the networks. Disassortative mixing is the tendency of high-degree nodes to connect with low-degree nodes, measured by a negative degree correlation coefficient $r$ \cite{Newman2002}.
+    In addition, we studied the degree correlations in CSN and CCN to understand the assortativity of the networks. Disassortative mixing is the tendency of high-degree nodes to connect with low-degree nodes, measured by a negative degree correlation coefficient $r$ \cite{newman2002assortative}.
     
 \begin{figure}[htbp]
     \centering
@@ -259,14 +259,14 @@ C(k) \sim k^{-\beta}
     \begin{equation}
     r = \frac{M^{-1}\sum_{i}j_ik_i-[M^{-1}\sum_{i}\frac{1}{2}(j_i+k_i)]^2}{M^{-1}\sum_{i}\frac{1}{2}(j_i^2+k_i^2)-[M^{-1}\sum_{i}\frac{1}{2}(j_i+k_i)]^2}
     \end{equation}
-    High-degree function words typically associate with low-degree content words, a phenomenon known as disassortativity, which reflects syntactic and semantic constraints in language organization. Moreover, it may enhance the robustness of the language network against errors and attacks \cite{Newman, 2002}.
+    High-degree function words typically associate with low-degree content words, a phenomenon known as disassortativity, which reflects syntactic and semantic constraints in language organization. Moreover, it may enhance the robustness of the language network against errors and attacks \cite{newman2002assortative}.
     In summary, our study shows that CCN and CSN exhibit a range of complex network characteristics, including hierarchical organization, small-world effect, scale-free structure, and disassortative mixing. These features provide a quantitative description of the Chinese language system and shed new light on its dynamics, structure, and function. 
 \section{Discussion}
-Our complex network analysis of the character co-occurrence network (CCN) and the character-sentence network (CSN) constructed from the Scripta Sinica corpus provides novel insights into the organizational principles and statistical regularities of the classical Chinese language system. The results reveal several non-trivial topological properties, including the scale-free structure, small-world effect, hierarchical organization, and disassortative mixing, which are consistent with the findings of previous studies on modern Chinese and other language networks \cite{FerreriCancho2001,Sole2010,Cong2014}. These properties suggest that the Chinese language system, despite its unique features and diachronic evolution, shares some universal characteristics with other human languages, reflecting the common cognitive and communicative constraints in language processing and acquisition.
+Our complex network analysis of the character co-occurrence network (CCN) and the character-sentence network (CSN) constructed from the Scripta Sinica corpus provides novel insights into the organizational principles and statistical regularities of the classical Chinese language system. The results reveal several non-trivial topological properties, including the scale-free structure, small-world effect, hierarchical organization, and disassortative mixing, which are consistent with the findings of previous studies on modern Chinese and other language networks \cite{sole2010language}. These properties suggest that the Chinese language system, despite its unique features and diachronic evolution, shares some universal characteristics with other human languages, reflecting the common cognitive and communicative constraints in language processing and acquisition.
 
-Comparing our findings with the modern Chinese language networks analyzed in the paper \cite{Li2007}, we observe many similarities.  Scale-free degree distributions, small-world features, and disassortative mixing patterns are present in both classical and contemporary Chinese networks. The power-law degree distribution of the scale-free structure suggests the existence of strongly connected hub characters or key words in the language system. The small-world effect, which has short average path lengths and substantial local clustering, points to an effective structure for processing and retrieving information. High-degree nodes typically connect with low-degree nodes in disassortative mixing, which is a reflection of the syntactic and semantic limitations in language use. These shared characteristics show how the Chinese language system is both structurally sound and functionally ideal throughout time.
+Comparing our findings with the modern Chinese language networks analyzed in the paper \cite{ZHOU20083039}, we observe many similarities.  Scale-free degree distributions, small-world features, and disassortative mixing patterns are present in both classical and contemporary Chinese networks. The power-law degree distribution of the scale-free structure suggests the existence of strongly connected hub characters or key words in the language system. The small-world effect, which has short average path lengths and substantial local clustering, points to an effective structure for processing and retrieving information. High-degree nodes typically connect with low-degree nodes in disassortative mixing, which is a reflection of the syntactic and semantic limitations in language use. These shared characteristics show how the Chinese language system is both structurally sound and functionally ideal throughout time.
 
-These can be further understood from a language evolution perspective. Grammar, vocabulary, and writing system simplifications and regularizations occurred throughout the Chinese language's transition from the classical to the modern forms \cite{Chen1999}. But the fundamental organizational ideas—like small-world and scale-free properties—have mostly held true, preserving the harmony between stability and adaptability in language processing and communication.
+These can be further understood from a language evolution perspective. Grammar, vocabulary, and writing system simplifications and regularizations occurred throughout the Chinese language's transition from the classical to the modern forms \cite{chen1999modern}. But the fundamental organizational ideas—like small-world and scale-free properties—have mostly held true, preserving the harmony between stability and adaptability in language processing and communication.
 
 At the same time, we also observe some differences between the classical and modern Chinese networks. The statistical structure of language networks has changed due to the advent of vernacular Chinese, the standardization of character usage, and the influence of other languages. Based on linguistic theories, we have several speculations about the statistical structure of Classical Chinese texts.
 
@@ -332,20 +332,6 @@ In the study of language and culture, we caution against blind or over-reliance 
 
 In conclusion, although we believe our research has the potential to improve society in several ways and advance the field of Chinese language studies, we also recognize the risks, biases, and limitations that may be present in our methodology. We welcome further research that expands on and challenges our findings and explores the ethical and societal implications of using complex network analysis to study language and culture.
 \section*{References}
-
-\appendix
-\section*{Appendices}
-
-
-
-% References
-% \begin{thebibliography}{9}
-%   \bibitem{example}
-%   Author,
-%   \emph{Title}.
-%   Publisher, Year.
-% \end{thebibliography}
-% \bibliographystyle{plain}
-% \bibliography{references}  % replace with the actual filename of your .bib file, without the extension
-
+\bibliographystyle{plain}
+\bibliography{../references/references} % 你的 .bib 文件名
 \end{document}

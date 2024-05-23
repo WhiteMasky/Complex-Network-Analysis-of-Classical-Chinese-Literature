@@ -261,7 +261,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmro7t.tfm
 INPUT c:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 INPUT c:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
@@ -283,8 +282,6 @@ INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 INPUT c:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
@@ -293,6 +290,7 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong51.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong85.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
@@ -321,6 +319,8 @@ INPUT ../example/csn_example.png
 INPUT ../example/csn_example.png
 INPUT ../example/csn_example.png
 INPUT ../example/csn_example.png
+INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
@@ -366,9 +366,17 @@ INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong75.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8a.tfm
 INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT ./report.bbl
+INPUT ./report.bbl
+INPUT report.bbl
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/zhmetrics/unikai/unikai20.tfm
+INPUT c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+INPUT c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out
+INPUT c:/Windows/Fonts/simkai.ttf
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
@@ -400,3 +408,4 @@ INPUT c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 INPUT c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+INPUT c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb

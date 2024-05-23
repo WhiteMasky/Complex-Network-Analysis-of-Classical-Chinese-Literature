@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.12)  23 MAY 2024 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.12)  23 MAY 2024 13:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -738,50 +738,16 @@ Package caption Info: End \AtBeginDocument code.
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 93.
-
-
-Package natbib Warning: Citation `Albert2002' on page 1 undefined on input line 104.
-
-
-Package natbib Warning: Citation `Dorogovtsev2002' on page 1 undefined on input line 104.
-
-
-Package natbib Warning: Citation `Newman2003' on page 1 undefined on input line 104.
-
-
-Package natbib Warning: Citation `Boccaletti2006' on page 1 undefined on input line 104.
-
-
-Package natbib Warning: Citation `Costa2007' on page 1 undefined on input line 104.
-
-
-Package natbib Warning: Citation `FerreriCancho2004' on page 1 undefined on input line 106.
-
-
-Package natbib Warning: Citation `Liu2004' on page 1 undefined on input line 106.
-
-
-Package natbib Warning: Citation `Baronchelli2013' on page 1 undefined on input line 106.
-
-
-Package natbib Warning: Citation `Li2007' on page 1 undefined on input line 110.
-
-
-Package natbib Warning: Citation `Liu2008' on page 1 undefined on input line 110.
-
-(c:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
+ (c:/texlive/2023/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ]
-
-Package natbib Warning: Citation `ScriptaSinica' on page 2 undefined on input line 121.
-
 LaTeX Font Info:    Trying to load font information for C70+rm on input line 123.
-(c:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 ) [2]
-<../example/ccn_example.png, id=72, 354.82562pt x 306.64563pt>
+<../example/ccn_example.png, id=82, 354.82562pt x 306.64563pt>
 File: ../example/ccn_example.png Graphic file (type png)
 <use ../example/ccn_example.png>
 Package pdftex.def Info: ../example/ccn_example.png  used on input line 134.
@@ -790,7 +756,7 @@ LaTeX Font Info:    Trying to load font information for OT1+phv on input line 13
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-<../example/csn_example.png, id=86, 354.82562pt x 316.68312pt>
+<../example/csn_example.png, id=96, 354.82562pt x 316.68312pt>
 File: ../example/csn_example.png Graphic file (type png)
 <use ../example/csn_example.png>
 Package pdftex.def Info: ../example/csn_example.png  used on input line 144.
@@ -802,79 +768,40 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [4 <../example/csn_example.png>]
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 193.
  [5]
-
-Package natbib Warning: Citation `Watts1998' on page 6 undefined on input line 204.
-
-<../analysis/shortest path/shortest path.png, id=128, 867.24pt x 361.35pt>
+<../analysis/shortest path/shortest path.png, id=139, 867.24pt x 361.35pt>
 File: ../analysis/shortest path/shortest path.png Graphic file (type png)
 <use ../analysis/shortest path/shortest path.png>
 Package pdftex.def Info: ../analysis/shortest path/shortest path.png  used on input line 207.
 (pdftex.def)             Requested size: 362.37569pt x 150.98853pt.
-
-Package natbib Warning: Citation `Barabasi1999' on page 6 undefined on input line 213.
-
-[6]
-<../analysis/degree distribution/degree distribution.png, id=133, 722.7pt x 289.08pt>
+ [6]
+<../analysis/degree distribution/degree distribution.png, id=146, 722.7pt x 289.08pt>
 File: ../analysis/degree distribution/degree distribution.png Graphic file (type png)
 <use ../analysis/degree distribution/degree distribution.png>
 Package pdftex.def Info: ../analysis/degree distribution/degree distribution.png  used on input line 219.
 (pdftex.def)             Requested size: 362.37569pt x 144.94986pt.
-<../analysis/node strength/node strenth.png, id=135, 722.7pt x 289.08pt>
+<../analysis/node strength/node strenth.png, id=148, 722.7pt x 289.08pt>
 File: ../analysis/node strength/node strenth.png Graphic file (type png)
 <use ../analysis/node strength/node strenth.png>
 Package pdftex.def Info: ../analysis/node strength/node strenth.png  used on input line 228.
 (pdftex.def)             Requested size: 362.37569pt x 144.94986pt.
  [7 <../analysis/shortest path/shortest path.png> <../analysis/degree distribution/degree distribution.png>]
-
-Package natbib Warning: Citation `Barabasi1999' on page 8 undefined on input line 237.
-
-
-Package natbib Warning: Citation `Ravasz2003' on page 8 undefined on input line 239.
-
-<../analysis/clustering coefficient/clustering coefficient.png, id=149, 722.7pt x 289.08pt>
+<../analysis/clustering coefficient/clustering coefficient.png, id=165, 722.7pt x 289.08pt>
 File: ../analysis/clustering coefficient/clustering coefficient.png Graphic file (type png)
 <use ../analysis/clustering coefficient/clustering coefficient.png>
 Package pdftex.def Info: ../analysis/clustering coefficient/clustering coefficient.png  used on input line 245.
 (pdftex.def)             Requested size: 362.37569pt x 144.94986pt.
-
-Package natbib Warning: Citation `Newman2002' on page 8 undefined on input line 250.
-
-<../analysis/knn/knn.png, id=151, 722.7pt x 289.08pt>
+<../analysis/knn/knn.png, id=168, 722.7pt x 289.08pt>
 File: ../analysis/knn/knn.png Graphic file (type png)
 <use ../analysis/knn/knn.png>
 Package pdftex.def Info: ../analysis/knn/knn.png  used on input line 254.
 (pdftex.def)             Requested size: 362.37569pt x 144.94986pt.
-
-Package natbib Warning: Citation `Newman' on page 8 undefined on input line 262.
-
-
-Package natbib Warning: Citation `2002' on page 8 undefined on input line 262.
-
-[8 <../analysis/node strength/node strenth.png>] [9 <../analysis/clustering coefficient/clustering coefficient.png> <../analysis/knn/knn.png>]
-
-Package natbib Warning: Citation `FerreriCancho2001' on page 10 undefined on input line 265.
-
-
-Package natbib Warning: Citation `Sole2010' on page 10 undefined on input line 265.
-
-
-Package natbib Warning: Citation `Cong2014' on page 10 undefined on input line 265.
-
-
-Package natbib Warning: Citation `Li2007' on page 10 undefined on input line 267.
-
-
-Package natbib Warning: Citation `Chen1999' on page 10 undefined on input line 269.
-
-[10] [11] [12]
+ [8 <../analysis/node strength/node strenth.png>] [9 <../analysis/clustering coefficient/clustering coefficient.png> <../analysis/knn/knn.png>] [10] [11] [12]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 317.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [13]
-
-Package natbib Warning: There were undefined citations.
-
-[14] (./report.aux)
+) [13] (./report.bbl
+Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyle (quanjiao) on input line 26.
+ [14]) [15] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -883,18 +810,18 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 6A3076766F7075B783CE7C7336844EEB;2323.
  ) 
 Here is how much of TeX's memory you used:
- 23836 strings out of 476023
- 462575 string characters out of 5791734
+ 24053 strings out of 476023
+ 468669 string characters out of 5791734
  1939190 words of memory out of 5000000
- 45557 multiletter control sequences out of 15000+600000
- 587672 words of font info for 100 fonts, out of 8000000 for 9000
+ 45754 multiletter control sequences out of 15000+600000
+ 589626 words of font info for 103 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 80i,12n,93p,1612b,1035s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (14 pages, 580783 bytes).
+ 80i,12n,93p,1612b,1055s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (15 pages, 599304 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 282 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
  212 words of extra memory for PDF output out of 10000 (max. 10000000)
 
