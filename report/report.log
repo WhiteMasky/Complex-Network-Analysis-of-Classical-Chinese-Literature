@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.12)  23 MAY 2024 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.12)  23 MAY 2024 14:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -743,65 +743,65 @@ File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfT
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 120.
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 118.
  (c:/texlive/2023/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
-) [2]
-<../example/ccn_example.png, id=81, 354.82562pt x 306.64563pt>
+)
+<../example/ccn_example.png, id=74, 354.82562pt x 306.64563pt>
 File: ../example/ccn_example.png Graphic file (type png)
 <use ../example/ccn_example.png>
-Package pdftex.def Info: ../example/ccn_example.png  used on input line 131.
+Package pdftex.def Info: ../example/ccn_example.png  used on input line 129.
 (pdftex.def)             Requested size: 226.48395pt x 195.73315pt.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 132.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 130.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-)
+) [2]
 <../example/csn_example.png, id=95, 354.82562pt x 316.68312pt>
 File: ../example/csn_example.png Graphic file (type png)
 <use ../example/csn_example.png>
-Package pdftex.def Info: ../example/csn_example.png  used on input line 141.
+Package pdftex.def Info: ../example/csn_example.png  used on input line 139.
 (pdftex.def)             Requested size: 226.48395pt x 202.14012pt.
  [3 <../example/ccn_example.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 187.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 185.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [4 <../example/csn_example.png>]
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 190.
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 188.
  [5]
 <../analysis/shortest path/shortest path.png, id=138, 867.24pt x 361.35pt>
 File: ../analysis/shortest path/shortest path.png Graphic file (type png)
 <use ../analysis/shortest path/shortest path.png>
-Package pdftex.def Info: ../analysis/shortest path/shortest path.png  used on input line 204.
+Package pdftex.def Info: ../analysis/shortest path/shortest path.png  used on input line 202.
 (pdftex.def)             Requested size: 362.37569pt x 150.98853pt.
- [6]
-<../analysis/degree distribution/degree distribution.png, id=145, 722.7pt x 289.08pt>
+ [6 <../analysis/shortest path/shortest path.png>]
+<../analysis/degree distribution/degree distribution.png, id=147, 722.7pt x 289.08pt>
 File: ../analysis/degree distribution/degree distribution.png Graphic file (type png)
 <use ../analysis/degree distribution/degree distribution.png>
-Package pdftex.def Info: ../analysis/degree distribution/degree distribution.png  used on input line 216.
+Package pdftex.def Info: ../analysis/degree distribution/degree distribution.png  used on input line 214.
 (pdftex.def)             Requested size: 362.37569pt x 144.94986pt.
-<../analysis/node strength/node strenth.png, id=147, 722.7pt x 289.08pt>
+<../analysis/node strength/node strenth.png, id=149, 722.7pt x 289.08pt>
 File: ../analysis/node strength/node strenth.png Graphic file (type png)
 <use ../analysis/node strength/node strenth.png>
-Package pdftex.def Info: ../analysis/node strength/node strenth.png  used on input line 225.
+Package pdftex.def Info: ../analysis/node strength/node strenth.png  used on input line 223.
 (pdftex.def)             Requested size: 362.37569pt x 144.94986pt.
- [7 <../analysis/shortest path/shortest path.png> <../analysis/degree distribution/degree distribution.png>]
-<../analysis/clustering coefficient/clustering coefficient.png, id=164, 722.7pt x 289.08pt>
+ [7 <../analysis/degree distribution/degree distribution.png>]
+<../analysis/clustering coefficient/clustering coefficient.png, id=165, 722.7pt x 289.08pt>
 File: ../analysis/clustering coefficient/clustering coefficient.png Graphic file (type png)
 <use ../analysis/clustering coefficient/clustering coefficient.png>
-Package pdftex.def Info: ../analysis/clustering coefficient/clustering coefficient.png  used on input line 242.
+Package pdftex.def Info: ../analysis/clustering coefficient/clustering coefficient.png  used on input line 240.
 (pdftex.def)             Requested size: 362.37569pt x 144.94986pt.
-<../analysis/knn/knn.png, id=167, 722.7pt x 289.08pt>
+<../analysis/knn/knn.png, id=168, 722.7pt x 289.08pt>
 File: ../analysis/knn/knn.png Graphic file (type png)
 <use ../analysis/knn/knn.png>
-Package pdftex.def Info: ../analysis/knn/knn.png  used on input line 251.
+Package pdftex.def Info: ../analysis/knn/knn.png  used on input line 249.
 (pdftex.def)             Requested size: 362.37569pt x 144.94986pt.
- [8 <../analysis/node strength/node strenth.png>] [9 <../analysis/clustering coefficient/clustering coefficient.png> <../analysis/knn/knn.png>] [10] [11] [12]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 314.
+ [8 <../analysis/node strength/node strenth.png> <../analysis/clustering coefficient/clustering coefficient.png>] [9 <../analysis/knn/knn.png>] [10] [11]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 311.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [13] (./report.bbl
+) [12] (./report.bbl [13]
 Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyle (quanjiao) on input line 26.
- [14]) [15] (./report.aux)
+) [14] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -810,18 +810,18 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 6A3076766F7075B783CE7C7336844EEB;2323.
  ) 
 Here is how much of TeX's memory you used:
- 24046 strings out of 476023
- 468588 string characters out of 5791734
- 1939190 words of memory out of 5000000
+ 24045 strings out of 476023
+ 468581 string characters out of 5791734
+ 1937190 words of memory out of 5000000
  45750 multiletter control sequences out of 15000+600000
  587984 words of font info for 101 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 80i,12n,93p,1612b,1059s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 80i,12n,93p,1377b,1037s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (15 pages, 593331 bytes).
+Output written on report.pdf (14 pages, 591978 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
  212 words of extra memory for PDF output out of 10000 (max. 10000000)
 
