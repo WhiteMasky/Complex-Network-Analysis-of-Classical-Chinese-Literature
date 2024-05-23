@@ -262,7 +262,27 @@ C(k) \sim k^{-\beta}
     High-degree function words typically associate with low-degree content words, a phenomenon known as disassortativity, which reflects syntactic and semantic constraints in language organization. Moreover, it may enhance the robustness of the language network against errors and attacks \cite{Newman, 2002}.
     In summary, our study shows that CCN and CSN exhibit a range of complex network characteristics, including hierarchical organization, small-world effect, scale-free structure, and disassortative mixing. These features provide a quantitative description of the Chinese language system and shed new light on its dynamics, structure, and function. 
 \section{Discussion}
+Our complex network analysis of the character co-occurrence network (CCN) and the character-sentence network (CSN) constructed from the Scripta Sinica corpus provides novel insights into the organizational principles and statistical regularities of the classical Chinese language system. The results reveal several non-trivial topological properties, including the scale-free structure, small-world effect, hierarchical organization, and disassortative mixing, which are consistent with the findings of previous studies on modern Chinese and other language networks \cite{FerreriCancho2001,Sole2010,Cong2014}. These properties suggest that the Chinese language system, despite its unique features and diachronic evolution, shares some universal characteristics with other human languages, reflecting the common cognitive and communicative constraints in language processing and acquisition.
 
+Comparing our findings with the modern Chinese language networks analyzed in the paper \cite{Li2007}, we observe many similarities.  Scale-free degree distributions, small-world features, and disassortative mixing patterns are present in both classical and contemporary Chinese networks. The power-law degree distribution of the scale-free structure suggests the existence of strongly connected hub characters or key words in the language system. The small-world effect, which has short average path lengths and substantial local clustering, points to an effective structure for processing and retrieving information. High-degree nodes typically connect with low-degree nodes in disassortative mixing, which is a reflection of the syntactic and semantic limitations in language use. These shared characteristics show how the Chinese language system is both structurally sound and functionally ideal throughout time.
+
+These can be further understood from a language evolution perspective. Grammar, vocabulary, and writing system simplifications and regularizations occurred throughout the Chinese language's transition from the classical to the modern forms \cite{Chen1999}. But the fundamental organizational ideas—like small-world and scale-free properties—have mostly held true, preserving the harmony between stability and adaptability in language processing and communication.
+
+At the same time, we also observe some differences between the classical and modern Chinese networks. The statistical structure of language networks has changed due to the advent of vernacular Chinese, the standardization of character usage, and the influence of other languages. Based on linguistic theories, we have several speculations about the statistical structure of Classical Chinese texts.
+
+First, due to the concise and highly contextualized nature of classical Chinese, where characters are more closely related to each other within and across sentences, Classical Chinese networks would be likely to have higher clustering coefficients and shorter average path lengths than their modern counterparts. Second, syntactic rules and semantic categories in classical Chinese are more rigid compared to the modern vernacular,  implying a stricter separation between function and content characters, so that the disassortative mixing pattern is likely to be more pronounced in the classical Chinese networks. 
+
+However, not all inferences can be empirically verified through data analysis.
+
+We can demonstrate the more pronounced disassortative mixing pattern in the classical Chinese networks by comparing the Pearson correlation coefficients: -0.2702 for CCN and -0.6054 for CSN, which are significantly larger in magnitude than -0.0759 for CLN1 and -0.0707 for CLN2.  But we cannot obtain the result that the clustering coefficient is higher and the average path length is shorter in the classical Chinese networks. 
+
+The indicators that do not align with existing linguistic understanding may have several explanations:
+
+1. Our study is based on a limited corpus of classical Chinese texts and is not comprehensive. Additionally, statistical result (Total number of characters: 36,762,062, Total number of Chinese characters: 27,868,060, Total number of noise characters: 160,150, Total noise ratio: 0.44\%) shows a significant amount of noise in the texts, which could be a source of bias.
+
+2. Due to technical limitations, we used sampling methods for calculating multiple indicators. Although these methods can yield relatively reliable results, they are still less complete compared to full-scale calculations.
+
+3. During text preprocessing, we were constrained by the lack of a robust NLP model for classical Chinese. Consequently, we could not create a network that accurately reflects classical Chinese word segmentation habits, leading to inaccuracies in network construction.
 \section{Conclusion}
 
 \section*{Acknowledgments}
