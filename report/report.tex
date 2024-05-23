@@ -1,4 +1,6 @@
 \documentclass[11pt]{article}
+\setlength{\textfloatsep}{3pt}
+\setlength{\intextsep}{3pt}
 \usepackage{times} % Times New Roman font
 \usepackage{graphicx} % For images
 \usepackage{enumitem} % For numbered items
@@ -30,7 +32,7 @@
 \usepackage{hyperref}
 \usepackage{geometry}
 \usepackage{caption}
-\captionsetup{font={small, sf}}
+\captionsetup{font={small}}
 \usepackage{ctex}
 \usepackage{siunitx}
 \usepackage{booktabs}
@@ -94,7 +96,7 @@
 \maketitle
 
 \begin{abstract}
-    The study of language as a complex system has attracted a lot of attention recently due to the quick development and widespread use of NLP and LLM in real-world. Network science offers a strong framework for detecting the structure of linguistic systems. Chinese, one of the most significant and unique languages in the world, has been studied by numerous academics. Nonetheless, while being the ancestor of Modern Chinese, Classical Chinese has received little attention, most likely because of corpus limitations. In this project, we investigate the topological characteristics of Classical Chinese literature using complex network analysis, concentrating on Scripta Sinica corpus. Through the construction of two distinct network types from the corpus, a Character Co-occurrence Network (CCN) and a Character-Sentence Network (CSN), we reveal a number of features that provide insight into the organizing principles that underlie Classical Chinese literature. According to our research, both networks have hierarchical organization, disassortative mixing patterns, small-world characteristics, and scale-free degree distributions, all of which are in line with findings in other language networks. 
+    The study of language as a complex system has attracted a lot of attention recently due to the quick development and widespread use of NLP and LLM recently. Network science offers a strong framework for detecting the structure of linguistic systems. Chinese, one of the most significant and unique languages in the world, has been studied by numerous academics. Nonetheless, while being the ancestor of Modern Chinese, Classical Chinese has received little attention, most likely because of corpus limitations. In this project, we investigate the topological characteristics of Classical Chinese literature using complex network analysis, concentrating on Scripta Sinica corpus. Through the construction of two distinct network types from the corpus, a Character Co-occurrence Network (CCN) and a Character-Sentence Network (CSN), we reveal a number of features that provide insight into the organizing principles that underlie Classical Chinese literature. According to our research, both networks have hierarchical organization, disassortative mixing patterns, small-world characteristics, and scale-free degree distributions, as other language networks. 
 \end{abstract}
 
 \section{Introduction}
@@ -102,20 +104,18 @@ Complex network studies have made it possible to analyze and comprehend the real
 
 By representing language as a network, where words or characters are nodes and their relations are edges \cite{ferrer2004patterns}, researchers have found statistical features in language networks such as scale-free degree distributions, small-world effects, and hierarchical structures. What they had found provided us with new insights into language learning and processing \cite{baronchelli2013networks}.
 
-Given that it is the existing language with the longest history and the largest speaker population in the world, Chinese offers a good case for the academic study of language networks. Chinese is an ideal language to study the connection between complex network theory and linguistic principles because of its large vocabulary, special reading and writing system, and rich literary history.
-
+Given that it is the existing language with the longest history and the largest speaker population in the world, Chinese offers a good case for the academic study of language networks. 
 However, a thorough examination of the topological characteristics of Classical Chinese language networks based on sizable corpora is still absent, in spite of some groundbreaking research on Modern Chinese networks\cite{LI2007629}.
 
-We investigate the statistical characteristics of Chinese language networks built from the Scripta Sinica corpus, one of the largest digital collections of Classical Chinese writings, in order to close this gap. Two types of networks are constructed: the character co-occurrence network (CCN) and the character-sentence network (CSN). Our goal is to identify the network features of the Classical Chinese language and any possible linguistic or cultural conclusions by combining quantitative investigation and qualitative interpretation.
-
-This project makes two primary contributions. Firstly, we present a thorough examination of the degree distributions, small-world effects, hierarchical structures, disassortativity, and other pertinent aspects of the topological characteristics of Chinese language networks. In addition to confirming some general features of language networks, our results also point to several distinct patterns that might be indicative of the particular qualities of the Classical Chinese language. Secondly, we present the possibilities of using network science to the quantitative analysis of Classical Chinese literature and culture. We demonstrate how complex network theory may be used to digital humanities research by building and analyzing networks from extensive historical corpora, creating new opportunities for multidisciplinary cooperation.
+We investigate the statistical characteristics of Chinese language networks built from the Scripta Sinica corpus in order to close this gap. 
+This project makes two primary contributions. Firstly, we present the topological characteristics of Chinese language networks. In addition to confirming some general features of language networks, our results also point to several distinct patterns that might be indicative of the particular qualities of the Classical Chinese language. Secondly, we present the possibilities of using network science to the quantitative analysis of Classical Chinese literature and culture. We demonstrate how complex network theory may be used to digital humanities research by building and analyzing language network systems.
 
 \section{Data and Methods}
 
 \subsection{Scripta Sinica Corpus}
-The Scripta Sinica corpus, a comprehensive digital collection of Classical Chinese literature, is managed by the Academia Sinica \cite{ScriptaSinica}. From the pre-Qin era (before 221 BCE) to the Qing dynasty (1644–1912 CE), it contains an extensive range of works. Every work in the corpus has been sorted into a distinct subset.
+The Scripta Sinica corpus, a comprehensive digital collection of Classical Chinese literature, is managed by the Academia Sinica \cite{ScriptaSinica}. From the pre-Qin era (before 221 BCE) to the Qing dynasty (1644–1912 CE), it contains an extensive range of works. Every work in the corpus has been sorted.
 
-In this study, we focus on a subset of the Scripta Sinica corpus,  specifically the Confucian Canon (Ruzang, 儒藏). This subset, notated as SS-CC, contains more than three hundred classical works of Confucianism, covering annotations of Confucian classics by various literati in all eras. The SS-CC subset represents the canonical works of Classical Chinese literature and provides a suitable dataset for studying the language networks of Classical Chinese.
+In this study, we focus on a subset of the Scripta Sinica corpus,  specifically the Confucian Canon (Ruzang, 儒藏). This subset, notated as SS-CC, contains more than three hundred classical works of Confucianism, covering annotations of Confucian classics by various literati in all eras. The SS-CC subset provides a suitable dataset for studying the language networks of Classical Chinese.
 
 The text in SS-CC is not consistent in various aspects such as traditional and simplified Chinese, punctuation, and so on. Before we start building the network, we need to preprocess the text. Traditional characters are converted to simplified characters to maintain consistency, and then all unpunctuated text is punctuated, preprocessed, and segmented using the Jiayan model, an NLP tool developed specifically for processing Classical Chinese.
 
@@ -142,7 +142,7 @@ In CSN, two characters are connected by an edge if they co-occur in the same sen
     \end{figure}
 Figure \ref{fig:csn_example} shows an example of constructing CSN from three sentences: "学而时习之,不亦说乎?" (Isn't it a pleasure to study and practice what you have learned?), "有朋自远方来,不亦乐乎?" (Isn't it delightful to have friends coming from distant quarters?) and "人不知自而不愠,不亦君子乎?"(Isn't it characteristic of a noble person to be unaffected when others misunderstand them?). For each sentence, a complete subgraph is created among its characters. These subgraphs are then merged to form the global CSN.
 
-The basic statistics of the two networks are summarized in Table \ref{tab:network_stats} and the statistics of corresponding random networks are in Table \ref{tab:control_group_stats}. CCN contains 4,253 nodes and 3,119,616 edges, with an average degree of 39.77. CSN is smaller but denser, with 74,837 nodes and 2,766,801 edges, and an average degree of 73.96. Due to arithmetic limitations, we are unable to directly compute the clustering coefficients and average shortest path lengths (When the network is not connected, it is not possible to calculate the average shortest path length. So we calculate the average shortest path length of only the largest connected subgraph of the network), that is why we use sampling to calculate. In the table following, we uniformly set the sampling ratio to 0.01 and the number of samples to 100. 
+The basic statistics of the two networks are summarized in Table \ref{tab:network_stats} and the statistics of corresponding random networks are in Table \ref{tab:control_group_stats}. Due to arithmetic limitations, we are unable to directly compute the clustering coefficients and average shortest path lengths, that is why we use sampling to calculate. In the table following, we uniformly set the sampling ratio to 0.01 and the number of samples to 100. 
 \begin{table}[htbp]
     \centering
     \caption{Basic statistics of CCN and CSN}
@@ -182,15 +182,14 @@ The basic statistics of the two networks are summarized in Table \ref{tab:networ
 To analyze the constructed networks, we employ a range of network measures and techniques commonly used in complex network analysis. These include:
 
 \begin{itemize}
-    \item Node Strength: Although we analyze unweighted networks, we also introduce and analyze the concept of node strength. Node strength is related to edge weights and represents the sum of the weights of all edges connected to a node. If we define the weight of an edge between two nodes as the frequency with which they appear adjacent to each other in CCN or simultaneously in a sentence in CSN, then the strength of a node corresponds to its total word frequency.
-    By analyzing node strength, we discover a nontrivial power-law relationship between node strength $s$ and degree $k$: $s \sim k^{\beta}$. This correlation demonstrates the existence of the ``rich get richer'' phenomenon in the network, which may account for the power-law degree distribution observed in the unweighted networks. 
-    \item Degree distribution: We examine whether the degree distributions of CCN and CSN show scale-free behavior. Scale-free networks are characterized by a power-law degree distribution, wherein a small number of nodes, called hubs, have a large number of connections. Power-law distributions have a major impact on information transmission and network resilience and are an indication of heterogeneous network architecture.
-    \item Clustering coefficient: And we look at is the networks' clustering coefficient, which indicates how likely it is for nodes to form clusters. We may determine if the networks have a hierarchical structure—that is, node clusters arranged in a multi-level manner—by examining the correlation between the clustering coefficient and node degree. Within language networks, the presence of a hierarchical structure implies the existence of meaningful sub-units.
-    \item Average shortest path length: To evaluate the efficiency of information transfer and the overall connectivity of the networks, we calculate the average shortest path length. The small-world effect, characterized by small average shortest path length relative to the network size. High local clustering and short global distances are characteristics of small-world networks that facilitate effective communication within the network.
-    \item Degree correlations: In addition, we investigate the average nearest neighbor degree and degree-degree correlations in order to better understand the degree correlations in CCN and CSN. The results of this study show whether the networks show assortative or disassortative mixing patterns, which represent the inclination of nodes to form connections with other nodes of correspondingly different degrees. Disassortative mixing says that high-degree nodes prefer to link with low-degree nodes, whereas assortative mixing argues that nodes with high degrees like to connect with other high-degree nodes. Understanding the fundamental structure and evolutionary history of the language networks can be gained from the mixing patterns.
+    \item Node Strength: Although we analyze unweighted networks, we also introduce and analyze the concept of node strength. If we define the weight of an edge between two nodes as the frequency with which they appear adjacent to each other in the network, then the strength of a node corresponds to its total word frequency.
+    \item Degree distribution: The degree distributions show scale-free behavior. Scale-free networks are characterized by a power-law degree distribution, wherein a small number of nodes, called hubs, have a large number of connections. 
+    \item Clustering coefficient: The networks' clustering coefficient, which indicates how likely it is for nodes to form clusters. We may determine if the networks have a hierarchical structure—that is, node clusters arranged in a multi-level manner—by examining the correlation between the clustering coefficient and node degree. 
+    \item Average shortest path length: To evaluate the efficiency of information transfer and the overall connectivity of the networks, we calculate the average shortest path length. The small-world effect, characterized by small average shortest path length relative to the network size. 
+    \item Degree correlations: The average nearest neighbor degree and degree-degree correlations is essential to better understand the degree correlations of the networks. The results of it show whether the networks show assortative or disassortative mixing patterns. 
 \end{itemize}
     
-The network analysis is performed using Python and popular network analysis libraries NetworkX. As mentioned earlier, due to computational limitations, we employed a sampling approach when calculating the relationship between the network clustering coefficient and degree, the average shortest path length of the network, and the relationship between the average nearest neighbor degree and degree. This approach allows us to maintain the overall network properties while reducing the computational burden and improving efficiency.
+The network analysis is performed using Python and popular network analysis libraries NetworkX. As mentioned earlier, due to computational limitations, we employed a sampling approach several times to maintain the overall network properties while reducing the computational burden and improving efficiency.
 
 \section{Models and Results}
 This section presents the main findings of our study on the topological properties of CCN and CSN. We focus on the small-world properties, scale-free characteristics, disassortativity and hierarchical structure. These results provide valuable insights into the organizational principles and structural features of Chinese language networks.
