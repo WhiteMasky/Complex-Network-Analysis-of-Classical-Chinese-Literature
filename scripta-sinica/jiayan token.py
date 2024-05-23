@@ -10,11 +10,11 @@ char_tokenizer = CharHMMTokenizer(lm)
 word_tokenizer = WordNgramTokenizer()
 
 print("Initializing CCN and CSN...")
-ccn = {}
-csn = {}
+ccn = {}  # Chinese Character Network
+csn = {}  # Chinese Sentence Network
 
-corpus_folder = '02儒藏-0370部-简体-标点'
-output_folder = '02儒藏-0370部-简体-标点-分词'
+corpus_folder = '02儒藏-0370部-简体-标点'  # Corpus folder containing Chinese texts
+output_folder = '02儒藏-0370部-简体-标点-分词'  # Output folder for tokenized texts
 
 print(f"Traversing corpus folder: {corpus_folder}")
 for root, dirs, files in os.walk(corpus_folder):

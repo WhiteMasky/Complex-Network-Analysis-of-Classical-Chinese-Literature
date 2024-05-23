@@ -1,9 +1,8 @@
 import os
 import re
 
-
 def is_chinese_char(char):
-    # 判断是否为中文字符
+    # Check if the character is a Chinese character
     return '\u4e00' <= char <= '\u9fff'
 
 
@@ -26,14 +25,14 @@ def traverse_folder(folder_path):
         'noise_chars': 0
     }
 
-    print(f"开始遍历文件夹: {folder_path}")
+    print(f"Start traversing folder: {folder_path}")
 
     for root, dirs, files in os.walk(folder_path):
-        print(f"当前文件夹: {root}")
+        print(f"Current folder: {root}")
         for file in files:
             if file.endswith('.txt'):
                 file_path = os.path.join(root, file)
-                print(f"正在处理文件: {file_path}")
+                print(f"Processing file: {file_path}")
                 count_chars_and_noise(file_path, stats)
 
     total_chars = stats['total_chars']
@@ -41,15 +40,15 @@ def traverse_folder(folder_path):
     noise_ratio = noise_chars / total_chars if total_chars > 0 else 0
 
     print("---")
-    print("遍历完成!")
-    print(f"总字符数: {total_chars}")
-    print(f"总中文字符数: {stats['chinese_chars']}")
-    print(f"总噪声字符数: {noise_chars}")
-    print(f"总噪声比例: {noise_ratio:.2%}")
+    print("Traversal completed!")
+    print(f"Total characters: {total_chars}")
+    print(f"Total Chinese characters: {stats['chinese_chars']}")
+    print(f"Total noise characters: {noise_chars}")
+    print(f"Noise ratio: {noise_ratio:.2%}")
 
 
-# 指定要遍历的文件夹路径
+# Specify the folder path to traverse
 folder_path = "02儒藏-0370部"
 
-# 开始遍历文件夹
+# Start traversing the folder
 traverse_folder(folder_path)
