@@ -1,2 +1,7 @@
 # Complex-Network-Analysis-of-Classical-Chinese-Literature
-course project for COMP8880 24S1
+This is a course project for COMP8880 24S1.
+
+The data for this study were sourced from the [Scripta Sinica database](https://hanchi.ihp.sinica.edu.tw/ihp/hanji.htm), supported by the [Institute of History and Philology, Academia Sinica](https://www1.ihp.sinica.edu.tw/). We would like to thank [@mahavivo](https://github.com/mahavivo/scripta-sinica) on GitHub and "Daizhige(殆知阁)" for their organization and open sourcing of the documents. We fork the Ruzang(儒藏) part in this repository. We also extend our gratitude to @jiaeyan for providing the Classical Chinese text processing model, [Jiayan(甲言)](https://github.com/jiaeyan/Jiayan). The model is not accessible in this repository due to the file size limitation.
+
+The preprocessing materials can be viewed in [scripta-sinica](https://github.com/WhiteMasky/Complex-Network-Analysis-of-Classical-Chinese-Literature/tree/main/scripta-sinica) folder. The network analysis data and code can be viewed in [analysis](https://github.com/WhiteMasky/Complex-Network-Analysis-of-Classical-Chinese-Literature/tree/main/analysis) folder. The references can be viewed in [references](https://github.com/WhiteMasky/Complex-Network-Analysis-of-Classical-Chinese-Literature/tree/main/references) folder. Example folder includes two example constructions of CCN and CSN. And report folder include the TEX file of my final report.
+
