@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex report"] 1716435998.97094 "report.aux" "report.bbl" "report" 1716436001.84497 0
+["bibtex report"] 1716436406.116 "report.aux" "report.bbl" "report" 1716436461.65437 0
   "../references/references.bib" 1716435932 5821 2d7c243f21d8193cceb85e5ddac56bbb ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/base/plain.bst" 1710160563 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "report.aux" 1716436000 7853 701297e773c23af1999b51bdf273248b "pdflatex"
+  "report.aux" 1716436460 7853 701297e773c23af1999b51bdf273248b "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1716435999.30365 "c:/Users/Striker/OneDrive - Australian National University/桌面/ANU/24S1/Complex-Network-Analysis-of-Classical-Chinese-Literature/report/report.tex" "report.pdf" "report" 1716436001.84546 0
+["pdflatex"] 1716436459.382 "c:/Users/Striker/OneDrive - Australian National University/桌面/ANU/24S1/Complex-Network-Analysis-of-Classical-Chinese-Literature/report/report.tex" "report.pdf" "report" 1716436461.65491 0
   "../analysis/clustering coefficient/clustering coefficient.png" 1716284740 42846 34b0e45c642f57a107424f51f3000d2f ""
   "../analysis/degree distribution/degree distribution.png" 1716282373 38762 614a087473988c5c25ce83315618b53f ""
   "../analysis/knn/knn.png" 1716384935 50680 8a833ba2c5df033fbc871380be91d2ff ""
@@ -15,7 +15,7 @@
   "../analysis/shortest path/shortest path.png" 1716286470 77588 207f123ed7960681eb8dab77d46b5131 ""
   "../example/ccn_example.png" 1716402451 48453 6118bb7c357dc82fae51bb16fb3b7cb0 ""
   "../example/csn_example.png" 1716402494 95159 80a276cfa402135e700cda922e392a04 ""
-  "c:/Users/Striker/OneDrive - Australian National University/桌面/ANU/24S1/Complex-Network-Analysis-of-Classical-Chinese-Literature/report/report.tex" 1716435993 40422 c87da528c664af16145e2bd3bfe602d0 ""
+  "c:/Users/Striker/OneDrive - Australian National University/桌面/ANU/24S1/Complex-Network-Analysis-of-Classical-Chinese-Literature/report/report.tex" 1716436458 40374 d1b485f203e509402814219eb17ecfc2 ""
   "c:/Windows/Fonts/msyh.ttc" 1689102122 19701556 07c864a5b15e68fa47639738197fae38 ""
   "c:/Windows/Fonts/simkai.ttf" 1651842600 11787328 76179557c160634a761c845ea111c893 ""
   "c:/Windows/Fonts/simsun.ttc" 1689102123 18008680 490583a172d4371a68d1e0526a6bca81 ""
@@ -34,8 +34,6 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm" 1710165022 4408 25b74d011a4c66b7f212c0cc3c90061b ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1710165022 2288 f478fc8fed18759effb59f3dad7f3084 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm" 1710165022 4640 532ca3305aad10cc01d769f3f91f1029 ""
-  "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmro7t.tfm" 1710165022 2212 ddd058020f70d31af08b213e40125079 ""
-  "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmro8r.tfm" 1710165022 4548 f370a182a02c40d95c5554802dc0f174 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1710160230 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1710160230 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1710160843 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
@@ -88,7 +86,6 @@
   "c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf" 1710165022 1380 0ea3a3370054be6da6acd929ec569f06 ""
   "c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf" 1710165022 3556 8a9a6dcbcd146ef985683f677f4758a6 ""
   "c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf" 1710165022 1384 a9d8adaf491ce34e5fba99dc7bbe5f39 ""
-  "c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmro7t.vf" 1710165022 1384 5daa35f30ad788d676a07a579b5db7fa ""
   "c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1710163191 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2023/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1710160337 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1710160577 40635 c40361e206be584d448876bba8a64a3b ""
@@ -202,10 +199,10 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1710165683 5421091 f6acac036d5b9a3bc55448890a811e45 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1710165837 6862241 0d0b31946771824538d91679eb6651ec ""
   "c:/texlive/2023/texmf.cnf" 1710165655 713 e69b156964470283e0530f5060668171 ""
-  "report.aux" 1716436000 7853 701297e773c23af1999b51bdf273248b "pdflatex"
-  "report.bbl" 1716435999 2497 51973a98155aa45e712958fb3c988b1d "bibtex report"
-  "report.out" 1716436000 2323 6a3076766f7075b783ce7c7336844eeb "pdflatex"
-  "report.tex" 1716435993 40422 c87da528c664af16145e2bd3bfe602d0 ""
+  "report.aux" 1716436460 7853 701297e773c23af1999b51bdf273248b "pdflatex"
+  "report.bbl" 1716436406 2497 51973a98155aa45e712958fb3c988b1d "bibtex report"
+  "report.out" 1716436460 2323 6a3076766f7075b783ce7c7336844eeb "pdflatex"
+  "report.tex" 1716436458 40374 d1b485f203e509402814219eb17ecfc2 ""
   (generated)
   "report.aux"
   "report.log"
