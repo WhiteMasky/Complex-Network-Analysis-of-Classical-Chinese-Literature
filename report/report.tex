@@ -97,7 +97,7 @@
 \thispagestyle{fancy}
 
 \begin{abstract}
-    The study of language 
+    The study of language as a complex system has attracted a lot of attention recently due to the quick development and widespread use of NLP and LLM in real-world. Network science offers a strong framework for detecting the structure of linguistic systems. Chinese, one of the most significant and unique languages in the world, has been studied by numerous academics. Nonetheless, while being the ancestor of Modern Chinese, Classical Chinese has received little attention, most likely because of corpus limitations. In this project, we investigate the topological characteristics of Classical Chinese literature using complex network analysis, concentrating on Scripta Sinica corpus. Through the construction of two distinct network types from the corpus, a Character Co-occurrence Network (CCN) and a Character-Sentence Network (CSN), we reveal a number of features that provide insight into the organizing principles that underlie Classical Chinese literature. According to our research, both networks have hierarchical organization, disassortative mixing patterns, small-world characteristics, and scale-free degree distributions, all of which are in line with findings in other language networks. This work not only advances our knowledge of Classical Chinese literature from the standpoint of complex systems, but it also emphasizes the usefulness of network science in revealing relationships and hidden patterns in textual data.
 \end{abstract}
 
 \section{Introduction}
@@ -284,22 +284,46 @@ The indicators that do not align with existing linguistic understanding may have
 
 3. During text preprocessing, we were constrained by the lack of a robust NLP model for classical Chinese. Consequently, we could not create a network that accurately reflects classical Chinese word segmentation habits, leading to inaccuracies in network construction.
 \section{Conclusion}
+This study presents a comprehensive complex network analysis of the Classical Chinese language based on the character co-occurrence network (CCN) and the character-sentence network (CSN) constructed from the Scripta Sinica corpus. Our research sheds light on the statistical regularities and organizational principles of the Classical Chinese language system by revealing a variety of non-trivial topological features of the language networks. The following succinctly describes the primary findings of our investigation:
 
+1. The power-law degree distribution of the Classical Chinese language networks indicates a scale-free structure. This suggests that most characters have relatively low degrees, whereas a tiny number of strongly related characters that are essential to the language system exist.
+
+2. The networks display small-world properties, with high local clustering coefficients and short average path lengths. This indicates an efficient organization of the language system for information processing and retrieval, striking a balance between local specialization and global integration.
+
+3. The networks possess a hierarchical modular structure, as evidenced by the power-law relationship between clustering coefficient and degree. This reflects the multi-scale compositional nature of the language system, with characters forming tightly connected clusters at different linguistic levels.
+
+4. The networks show disassortative mixing patterns, where high-degree characters tend to connect with low-degree characters. This property is related to the syntactic and semantic constraints in language organization and may contribute to the robustness and flexibility of the language system.
+
+5. It appears that some organizing principles of human language are universal because the topological characteristics of the Classical Chinese language networks are substantially compatible with those observed in modern Chinese and other language networks. Higher clustering coefficients, shorter path lengths, and more pronounced hierarchical and disassortative structures are some of the major distinctions seen in the Classical Chinese networks, which may be a reflection of the language's distinctive characteristics and evolutionary changes.
+
+These findings offer new insights into the cognitive and communicative mechanisms underpinning language processing and acquisition, as well as the evolutionary and cross-linguistic patterns in human language. They also show how effective complex network theory is at quantitatively characterizing the structure and dynamics of the Chinese language system.
+
+
+However, it is important to acknowledge the limitations of our study and consider them for future research. First, although extensive, the Scripta Sinica corpus only covers a specific historical period and genre of Classical Chinese literature. The generalizability of our findings to other periods, styles, and registers of the language requires further investigation. Second, our network construction methods, based on character co-occurrence and sentence structure, only capture certain aspects of the language system. Other dimensions of language, such as semantics, pragmatics, morphology, and phonology, are not explicitly represented in the current networks. Third, our analysis focuses primarily on the statistical properties of the language networks, without directly examining the cognitive and social processes underlying language use and evolution. Integrating the network approach with experimental, computational, and historical methods would provide a more comprehensive understanding of the language system.
+
+Despite these limitations, our study opens up new avenues for future research on the complex network analysis of Chinese and other languages. Some promising directions include:
+
+1. Expanding the data sources to include more diverse and representative corpora of Classical and modern Chinese, as well as other languages and dialects, to investigate the universality and specificity of language network properties.
+
+2. Developing more sophisticated network construction methods and analytical tools, such as weighted, directed, and multiplex networks, to capture richer linguistic information and dynamics.
+
+3. To find typological and evolutionary patterns in language networks, conducting methodical comparisons and statistical assessments of network features across various linguistic domains, historical eras, and genres.
+
+4. Combining language acquisition, processing, and change theories and methodologies with network analysis and other linguistic, cognitive, and social theories and methodologies to create a more thorough and explicative framework for comprehending the intricate system of human language.
+
+
+To conclude, our intricate network analysis of the networks of Classical Chinese languages built from the Scripta Sinica corpus uncovers a wealth of structural features that offer fresh perspectives on the statistical regularities and organizing principles of the language system. Through quantitative characterization and comparison of the structural and functional aspects of human language, the study shows the potential of complex network theory. It also creates new avenues for interdisciplinary research on the cognitive, communicative, and evolutionary bases of language diversity and complexity.
 \section*{Acknowledgments}
-
+The data for this study were sourced from the Scripta Sinica database(\url{https://hanchi.ihp.sinica.edu.tw/ihp/hanji.htm}), supported by the Institute of History and Philology, Academia Sinica(\url{https://www1.ihp.sinica.edu.tw/}). We would like to thank @mahavivo(\url{https://github.com/mahavivo/scripta-sinica}) on GitHub and "Daizhige(殆知阁)" for their organization and open sourcing of the documents. We also extend our gratitude to @jiaeyan for providing the classical Chinese text processing model, Jiayan(甲言)(\url{https://github.com/jiaeyan/Jiayan}).
+\section*{Code and Data Availability}
+The code and data used in this study are available on GitHub at \url{https://github.com/WhiteMasky/Complex-Network-Analysis-of-Classical-Chinese-Literature}
 \section*{Ethical Considerations and Broader Impacts}
 
 \section*{References}
 
 \appendix
 \section*{Appendices}
-\section*{Supplementary Materials}
-\subsection*{Network Visualization}
 
-\subsection*{Statistical Tests}
-
-
-\subsection*{Code and Data Availability}
 
 
 % References
