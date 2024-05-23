@@ -1,16 +1,18 @@
 \documentclass[11pt]{article}
-\setlength{\textfloatsep}{3pt}
-\setlength{\intextsep}{3pt}
+\usepackage{setspace}
+\setstretch{0.8}  % 调整为合适的行距倍数
+\setlength{\textfloatsep}{1pt}
+\setlength{\intextsep}{1pt}
 \usepackage{times} % Times New Roman font
 \usepackage{graphicx} % For images
 \usepackage{enumitem} % For numbered items
 \usepackage{lipsum} % For dummy text
 \usepackage{hyperref} % For references
 \hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
+colorlinks=true,
+linkcolor=blue,
+filecolor=magenta,
+urlcolor=cyan,
 } % For hyperlinks
 \usepackage{amsmath} % For math equations
 \usepackage{cleveref} % For clever references
@@ -23,7 +25,7 @@
 \usepackage{xcolor} % For custom colors
 \usepackage{natbib} % For bibliography
 \usepackage{appendix} % For appendices
-\usepackage[font={small,it}]{caption} 
+\usepackage[font={small,it}]{caption}
 % \usepackage{mwe}% For custom captions
 \usepackage{listings}
 \usepackage{color}
@@ -47,44 +49,41 @@
 \usepackage{fancyhdr}
 \setlength{\headheight}{13.59999pt}
 \addtolength{\topmargin}{-1.59999pt}
-
 \lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\footnotesize,
-    breakatwhitespace=false,
-    breaklines=true,
-    captionpos=b,
-    keepspaces=true,
-    numbers=left,
-    numbersep=5pt,
-    showspaces=false,
-    showstringspaces=false,
-    showtabs=false,
-    tabsize=2
+backgroundcolor=\color{backcolour},
+commentstyle=\color{codegreen},
+keywordstyle=\color{magenta},
+numberstyle=\tiny\color{codegray},
+stringstyle=\color{codepurple},
+basicstyle=\ttfamily\footnotesize,
+breakatwhitespace=false,
+breaklines=true,
+captionpos=b,
+keepspaces=true,
+numbers=left,
+numbersep=5pt,
+showspaces=false,
+showstringspaces=false,
+showtabs=false,
+tabsize=2
 }
-
 \lstset{style=mystyle}
-
 \lstnewenvironment{outputlisting}{
-  \lstset{
-    basicstyle=\ttfamily\footnotesize,
-    frame=single,
-    backgroundcolor=\color{lightgray},
-    keywordstyle=\color{blue},
-    breaklines=true,
-    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
-    xleftmargin=.1\textwidth,
-    xrightmargin=.1\textwidth,
-    captionpos=b,
-    language=[Sharp]C,
-    numbers=none,
-    tabsize=2,
-    showstringspaces=false
-  }
+\lstset{
+basicstyle=\ttfamily\footnotesize,
+frame=single,
+backgroundcolor=\color{lightgray},
+keywordstyle=\color{blue},
+breaklines=true,
+postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+xleftmargin=.1\textwidth,
+xrightmargin=.1\textwidth,
+captionpos=b,
+language=[Sharp]C,
+numbers=none,
+tabsize=2,
+showstringspaces=false
+}
 }{}
 
 \title{Complex Network Analysis of Classical Chinese Literature: Insights from the Confucian Canon of Scripta Sinica Corpus}
@@ -92,7 +91,7 @@
 \date{May, 2024}
 
 \begin{document}
-
+\setstretch{1.0}
 \maketitle
 
 \begin{abstract}
@@ -140,7 +139,7 @@ In CSN, two characters are connected by an edge if they co-occur in the same sen
     \caption{An example of constructing the character-sentence network (CSN) from a set of sentences.}
     \label{fig:csn_example}
     \end{figure}
-Figure \ref{fig:csn_example} shows an example of constructing CSN from three sentences: "学而时习之,不亦说乎?" (Isn't it a pleasure to study and practice what you have learned?), "有朋自远方来,不亦乐乎?" (Isn't it delightful to have friends coming from distant quarters?) and "人不知自而不愠,不亦君子乎?"(Isn't it characteristic of a noble person to be unaffected when others misunderstand them?). For each sentence, a complete subgraph is created among its characters. These subgraphs are then merged to form the global CSN.
+Figure \ref{fig:csn_example} shows an example of constructing CSN from three sentences: "学而时习之,不亦说乎?" , "有朋自远方来,不亦乐乎?" , "人不知自而不愠,不亦君子乎?". For each sentence, a complete subgraph is created among its characters. These subgraphs are then merged to form the global CSN.
 
 The basic statistics of the two networks are summarized in Table \ref{tab:network_stats} and the statistics of corresponding random networks are in Table \ref{tab:control_group_stats}. Due to arithmetic limitations, we are unable to directly compute the clustering coefficients and average shortest path lengths, that is why we use sampling to calculate. In the table following, we uniformly set the sampling ratio to 0.01 and the number of samples to 100. 
 \begin{table}[htbp]
