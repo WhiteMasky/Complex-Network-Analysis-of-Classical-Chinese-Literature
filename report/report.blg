@@ -4,36 +4,37 @@ The top-level auxiliary file: report.aux
 The style file: plain.bst
 Database file #1: ../references/references.bib
 Warning--empty journal in ScriptaSinica
+Warning--empty year in ScriptaSinica
 You've used 12 entries,
             2118 wiz_defined-function locations,
-            591 strings with 6021 characters,
-and the built_in function-call counts, 4000 in all, are:
-= -- 389
+            589 strings with 6000 characters,
+and the built_in function-call counts, 3987 in all, are:
+= -- 385
 > -- 194
 < -- 0
 + -- 77
 - -- 64
-* -- 312
-:= -- 691
-add.period$ -- 37
+* -- 315
+:= -- 687
+add.period$ -- 35
 call.type$ -- 12
 change.case$ -- 67
 chr.to.int$ -- 0
-cite$ -- 13
+cite$ -- 14
 duplicate$ -- 132
 empty$ -- 306
 format.name$ -- 64
-if$ -- 806
+if$ -- 802
 int.to.chr$ -- 0
 int.to.str$ -- 12
 missing$ -- 13
-newline$ -- 64
+newline$ -- 62
 num.names$ -- 24
-pop$ -- 53
+pop$ -- 56
 preamble$ -- 1
 purify$ -- 56
 quote$ -- 0
-skip$ -- 87
+skip$ -- 86
 stack$ -- 0
 substring$ -- 282
 swap$ -- 11
@@ -41,8 +42,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 46
-warning$ -- 1
+warning$ -- 2
 while$ -- 39
 width$ -- 14
-write$ -- 133
-(There was 1 warning)
+write$ -- 129
+(There were 2 warnings)
